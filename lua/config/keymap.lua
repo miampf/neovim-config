@@ -8,8 +8,8 @@ local function map(mode, lhs, rhs, opts)
 end
 
 -- config stuff
-map("n", "<Leader>er", ":source ~/.config/nvim/init.lua<CR>", { desc = "Reload the neovim configuration" })
-map("n", "<Leader>ee", ":edit ~/.config/nvim/init.lua<CR>", { desc = "Edit the neovim configuration" })
+map("n", "<Leader>zr", ":source ~/.config/nvim/init.lua<CR>", { desc = "Reload the neovim configuration" })
+map("n", "<Leader>ze", ":edit ~/.config/nvim/init.lua<CR>", { desc = "Edit the neovim configuration" })
 
 -- often used commands
 map("n", "<Leader>w", ":w<CR>", { desc = "Save" })
@@ -23,7 +23,7 @@ map("n", "<Leader>fn", ":edit ", { desc = "Create a new file, you have to provid
 map("n", "<Leader>fnd", ":Mkdir ", { desc = "Create a new directory" })
 
 -- terminals
-map("n", "<Leader>th", ":ToggleTerm size=40 direction=horizontal<CR>", { desc = "Toggle a horizontal terminal" })
+map("n", "<Leader>th", ":ToggleTerm direction=horizontal<CR>", { desc = "Toggle a horizontal terminal" })
 map("n", "<Leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { desc = "Toggle a vertical terminal" })
 map("n", "<Leader>tf", ":ToggleTerm direction=float<CR>", { desc = "Toggle a floating terminal" })
 
