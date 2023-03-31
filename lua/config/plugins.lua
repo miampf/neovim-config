@@ -33,6 +33,9 @@ return require('packer').startup(function(use)
   -- startify
   use {"mhinz/vim-startify"}
 
+  -- lexima
+  use {"cohama/lexima.vim"}
+
   -- catpuccin color scheme
   use { "catppuccin/nvim", as = "catppuccin" }
 end)
