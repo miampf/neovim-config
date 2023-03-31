@@ -49,6 +49,13 @@ return require('packer').startup(function(use)
     end,
   })
 
+  -- vim-commentary
+  use {"tpope/vim-commentary"}
+
+  -- barbar
+  use {'nvim-tree/nvim-web-devicons'}
+  use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
+
   -- catpuccin color scheme
   use { "catppuccin/nvim", as = "catppuccin" }
 end)
