@@ -18,7 +18,7 @@ map("n", "<Leader>qq", ":qa<CR>", { desc = "Quit all" })
 map("n", "<Leader>wq", ":wq<CR>", { desc = "Write and quit" })
 
 -- files and directories
-map("n", "<Leader>ft", ":Neotree toggle<CR>", { desc = "Toggle Neotree", silent = true})
+map("n", "<Leader>ft", ":CHADopen<CR>", { desc = "Toggle Neotree", silent = true})
 map("n", "<Leader>fn", ":edit ", { desc = "Create a new file, you have to provide the filepath" })
 map("n", "<Leader>fnd", ":Mkdir ", { desc = "Create a new directory" })
 
