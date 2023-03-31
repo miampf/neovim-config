@@ -19,7 +19,7 @@ map('n', '<Leader>f8', '<Cmd>BufferGoto 8<CR>', opts)
 map('n', '<Leader>f9', '<Cmd>BufferGoto 9<CR>', opts)
 map('n', '<Leader>fl', '<Cmd>BufferLast<CR>', opts)
 -- Pin/unpin buffer
-map('n', '<Leader>fp', '<Cmd>BufferPin<CR>', opts)
+map('n', '<Leader>fi', '<Cmd>BufferPin<CR>', opts)
 -- Close buffer
 map('n', '<Leader>fc', '<Cmd>BufferClose<CR>', opts)
 -- Wipeout buffer

@@ -1,3 +1,6 @@
+-- note that some keymaps may be configured under lua/plugins
+-- as well since some plugins are more extensive.
+
 -- taken from https://blog.devgenius.io/create-custom-keymaps-in-neovim-with-lua-d1167de0f2c2
 local function map(mode, lhs, rhs, opts)
     local options = { noremap = true }
