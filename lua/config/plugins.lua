@@ -56,6 +56,9 @@ return require('packer').startup(function(use)
   use {'nvim-tree/nvim-web-devicons'}
   use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 
+  -- vimtex
+  use {"lervag/vimtex"}
+
   -- catpuccin color scheme
   use { "catppuccin/nvim", as = "catppuccin" }
 end)

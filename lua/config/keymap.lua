@@ -33,3 +33,7 @@ map("n", "<Leader>tf", ":ToggleTerm direction=float<CR>", { desc = "Toggle a flo
 -- splitting screens
 map("n", "<Leader>xv", "v", { desc = "Split the window vertically" })
 map("n", "<Leader>xh", "s", { desc = "Split the window horizontally" })
+
+-- working with latex
+map("n", "<Leader>vc", ":VimtexCompile<CR>", { desc = "Compile the current tex file" })
+map("n", "<Leader>vl", ":VimtexClean<CR>", { desc = "Clean the local files" })
