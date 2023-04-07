@@ -59,6 +59,9 @@ return require('packer').startup(function(use)
   -- vimtex
   use {"lervag/vimtex"}
 
+  -- omnisharp
+  use {"OmniSharp/omnisharp-vim"}
+
   -- catpuccin color scheme
   use { "catppuccin/nvim", as = "catppuccin" }
 end)
