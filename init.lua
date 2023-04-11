@@ -18,3 +18,5 @@ require("mason").setup() -- set up mason
 require("toggleterm").setup() -- set up toggleterm
 require "plugins.coc" -- load the CoC config
 require "plugins.barbar"
+
+vim.g.OmniSharp_server_use_mono = 1
