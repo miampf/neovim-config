@@ -6,8 +6,4 @@ vim.cmd([[
   augroup end
 ]])
 
--- open chadtree on startup
-vim.cmd([[
-  autocmd VimEnter * CHADopen
-]])
 
