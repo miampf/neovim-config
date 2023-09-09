@@ -2,6 +2,12 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- todo-comments
+  use 'folke/todo-comments.nvim'
+
+  -- plenary - required by todo-comments
+  use "nvim-lua/plenary.nvim"
+
   -- mason
   use {
     "williamboman/mason.nvim",
