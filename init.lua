@@ -20,3 +20,5 @@ require "plugins.coc" -- load the CoC config
 require "plugins.barbar"
 
 vim.g.OmniSharp_server_use_mono = 1
+
+vim.opt.shell = '/bin/bash'
