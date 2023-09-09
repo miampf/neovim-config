@@ -19,11 +19,17 @@ return require('packer').startup(function(use)
   -- CoC
   use {'neoclide/coc.nvim', branch = 'release'}
 
+  -- crytal programming
+  use {'vim-crystal/vim-crystal'}
+
   -- Eunuch
   use {"tpope/vim-eunuch"}
 
   -- startify
   use {"mhinz/vim-startify"}
+
+  -- vim-rustfmt
+  use {"alx741/vim-rustfmt"}
 
   -- arshamiser
   use({
