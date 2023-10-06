@@ -31,6 +31,12 @@ return require('packer').startup(function(use)
   -- Eunuch
   use {"tpope/vim-eunuch"}
 
+  -- Docker
+  use {"ekalinin/Dockerfile.vim"}
+
+  -- typst :)))
+  use {'kaarmu/typst.vim', ft = {'typst'}}
+
   -- startify
   use {"mhinz/vim-startify"}
 

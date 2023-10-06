@@ -25,6 +25,10 @@
         "crystal"
       ],
       "rootPatterns": ["shard.yml"]
+    },
+    "typst": {
+      "command": "typst-lsp",
+      "filetypes": ["typst"]
     }
   } 
 }
