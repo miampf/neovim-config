@@ -16,6 +16,9 @@ return require('packer').startup(function(use)
 
   vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
+  -- jdtls
+  use 'mfussenegger/nvim-jdtls'
+
   -- chadtree
   use {"ms-jpq/chadtree"}
 
