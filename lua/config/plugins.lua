@@ -19,6 +19,15 @@ return require('packer').startup(function(use)
   -- jdtls
   use 'mfussenegger/nvim-jdtls'
 
+  -- lazygit
+  use({
+    "kdheepak/lazygit.nvim",
+    -- optional for floating window border decoration
+    requires = {
+      "nvim-lua/plenary.nvim",
+    },
+  })
+
   -- chadtree
   use {"ms-jpq/chadtree"}
 

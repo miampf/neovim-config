@@ -38,6 +38,9 @@ map("n", "<Leader>xh", "s", { desc = "Split the window horizontally" })
 map("n", "<Leader>vc", ":VimtexCompile<CR>", { desc = "Compile the current tex file" })
 map("n", "<Leader>vl", ":VimtexClean<CR>", { desc = "Clean the local files" })
 
+-- lazygit
+map("n", "<Leader>lg", ":LazyGit<CR>", { desc = "Open lazygit" })
+
 -- telescope bindings
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<Leader>FF', builtin.find_files, {})
