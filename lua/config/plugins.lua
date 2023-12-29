@@ -25,6 +25,26 @@ return require('packer').startup(function(use)
   -- toggleterm
   use {"akinsho/toggleterm.nvim", tag = '*'}
 
+  -- pandoc
+  use {
+    'aspeddro/pandoc.nvim',
+    config = function()
+      require'pandoc'.setup()
+    end
+  }
+
+  -- telescope
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
+
+  -- treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
+
   -- CoC
   use {'neoclide/coc.nvim', branch = 'release'}
 
