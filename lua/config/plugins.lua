@@ -83,7 +83,8 @@ return require('packer').startup(function(use)
       "famiu/feline.nvim",
       "rebelot/heirline.nvim",
       "kyazdani42/nvim-web-devicons",
-      "nanotee/sqls.nvim"
+      "nanotee/sqls.nvim",
+      "arsham/listish.nvim"
     },
     config = function()
       -- ignore any parts you don't want to use
@@ -98,6 +99,9 @@ return require('packer').startup(function(use)
       vim.api.nvim_set_option("tabline", [[%{%v:lua.require("arshamiser.tabline").draw()%}]])
     end,
   })
+
+  -- nui
+  use {"MunifTanjim/nui.nvim"}
 
   -- vim-commentary
   use {"tpope/vim-commentary"}
