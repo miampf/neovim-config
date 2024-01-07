@@ -23,3 +23,5 @@ require "plugins.barbar"
 vim.g.OmniSharp_server_use_mono = 1
 
 vim.opt.shell = "/usr/bin/fish"
+
+vim.opt.colorcolumn = "120"
