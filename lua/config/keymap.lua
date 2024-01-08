@@ -41,6 +41,13 @@ map("n", "<Leader>vl", ":VimtexClean<CR>", { desc = "Clean the local files" })
 -- lazygit
 map("n", "<Leader>lg", ":LazyGit<CR>", { desc = "Open lazygit" })
 
+-- coc jump to next/previous problem
+map("n", "[c", ":call CocAction('diagnosticNext')<CR>", { desc = "Go to next problem" })
+map("n", "]c", ":call CocAction('diagnosticPrevious')<CR>", { desc = "Go to previous problem" })
+
+-- coc open diagnostics window
+map("n", "[C", ":CocDiagnostics<CR>", { desc = "Open diagnostics window" })
+
 -- telescope bindings
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<Leader>FF', builtin.find_files, {})
