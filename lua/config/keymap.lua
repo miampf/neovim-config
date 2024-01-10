@@ -48,6 +48,9 @@ map("n", "]c", ":call CocAction('diagnosticPrevious')<CR>", { desc = "Go to prev
 -- coc open diagnostics window
 map("n", "[C", ":CocDiagnostics<CR>", { desc = "Open diagnostics window" })
 
+-- activate zen mode
+map("n", "<Leader>z", ":ZenMode<CR>", { desc = "Activate zen mode" })
+
 -- telescope bindings
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<Leader>FF', builtin.find_files, {})
