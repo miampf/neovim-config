@@ -6,4 +6,9 @@ vim.cmd([[
   augroup end
 ]])
 
-
+vim.cmd([[
+  augroup zen_mode
+    autocmd!
+    autocmd VimEnter *.md :ZenMode
+  augroup end
+]])

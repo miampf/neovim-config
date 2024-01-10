@@ -72,6 +72,12 @@ return require('packer').startup(function(use)
   -- startify
   use {"mhinz/vim-startify"}
 
+  -- zen-mode
+  use {"folke/zen-mode.nvim"}
+
+  -- twilight
+  use {"folke/twilight.nvim"}
+
   -- vim-rustfmt
   use {"alx741/vim-rustfmt"}
 
