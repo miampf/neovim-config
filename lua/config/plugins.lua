@@ -78,6 +78,14 @@ return require('packer').startup(function(use)
   -- twilight
   use {"folke/twilight.nvim"}
 
+  -- wrapping
+  use({
+    "andrewferrier/wrapping.nvim",
+    config = function()
+      require("wrapping").setup()
+    end,
+  })
+
   -- vim-rustfmt
   use {"alx741/vim-rustfmt"}
 

@@ -10,5 +10,6 @@ vim.cmd([[
   augroup zen_mode
     autocmd!
     autocmd VimEnter *.md :ZenMode
+    autocmd VimEnter *.md :SoftWrapMode
   augroup end
 ]])
