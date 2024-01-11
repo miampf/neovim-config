@@ -69,6 +69,12 @@ return require('packer').startup(function(use)
   -- typst :)))
   use {'kaarmu/typst.vim', ft = {'typst'}}
 
+  -- markdown preview
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
   -- startify
   use {"mhinz/vim-startify"}
 
@@ -84,6 +90,7 @@ return require('packer').startup(function(use)
     config = function()
       require("wrapping").setup()
     end,
+    opts = { create_keymaps = false },
   })
 
   -- vim-rustfmt

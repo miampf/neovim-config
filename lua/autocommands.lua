@@ -7,13 +7,16 @@ vim.cmd([[
 ]])
 
 vim.cmd([[
-  augroup zen_mode
+  augroup text_editing
     autocmd!
     autocmd VimEnter *.md :ZenMode
     autocmd VimEnter *.md :SoftWrapMode
+    autocmd VimEnter *.md :MarkdownPreview
     autocmd VimEnter *.typ :ZenMode
     autocmd VimEnter *.typ :SoftWrapMode
+    autocmd VimEnter *.typ :TypstWatch
     autocmd VimEnter *.tex :ZenMode
     autocmd VimEnter *.tex :SoftWrapMode
+    autocmd VimEnter *.tex :VimtexCompile
   augroup end
 ]])
