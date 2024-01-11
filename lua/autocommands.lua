@@ -11,5 +11,9 @@ vim.cmd([[
     autocmd!
     autocmd VimEnter *.md :ZenMode
     autocmd VimEnter *.md :SoftWrapMode
+    autocmd VimEnter *.typ :ZenMode
+    autocmd VimEnter *.typ :SoftWrapMode
+    autocmd VimEnter *.tex :ZenMode
+    autocmd VimEnter *.tex :SoftWrapMode
   augroup end
 ]])
