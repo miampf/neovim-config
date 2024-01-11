@@ -11,7 +11,6 @@ vim.cmd([[
     autocmd!
     autocmd VimEnter *.md :ZenMode
     autocmd VimEnter *.md :SoftWrapMode
-    autocmd VimEnter *.md :MarkdownPreview
     autocmd VimEnter *.typ :ZenMode
     autocmd VimEnter *.typ :SoftWrapMode
     autocmd VimEnter *.typ :TypstWatch
