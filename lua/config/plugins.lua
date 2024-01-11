@@ -88,9 +88,8 @@ return require('packer').startup(function(use)
   use({
     "andrewferrier/wrapping.nvim",
     config = function()
-      require("wrapping").setup()
+      require("wrapping").setup({ create_keymaps = false })
     end,
-    opts = { create_keymaps = false },
   })
 
   -- vim-rustfmt
