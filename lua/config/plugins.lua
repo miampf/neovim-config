@@ -75,6 +75,9 @@ return require('packer').startup(function(use)
       run = function() vim.fn["mkdp#util#install"]() end,
   })
 
+  -- markdown tables
+  use {"dhruvasagar/vim-table-mode"}
+
   -- startify
   use {"mhinz/vim-startify"}
 
