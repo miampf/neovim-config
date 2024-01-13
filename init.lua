@@ -21,7 +21,6 @@ require "plugins.coc" -- load the CoC config
 require "plugins.barbar"
 
 vim.g.OmniSharp_server_use_mono = 1
-vim.g.mkdp_auto_start = 1
 
 vim.opt.shell = "/usr/bin/fish"
 
