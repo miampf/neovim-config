@@ -23,6 +23,7 @@ require "plugins.barbar"
 vim.g.OmniSharp_server_use_mono = 1
 
 vim.opt.shell = "/bin/bash"
+vim.opt.clipboard ='unnamedplus'
 
 vim.opt.colorcolumn = "120"
 
