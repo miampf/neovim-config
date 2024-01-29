@@ -19,6 +19,7 @@ require("toggleterm").setup() -- set up toggleterm
 require("todo-comments").setup() -- set up todo-comments
 require "plugins.coc" -- load the CoC config
 require "plugins.barbar"
+require "plugins.toggleterm"
 
 vim.g.OmniSharp_server_use_mono = 1
 
