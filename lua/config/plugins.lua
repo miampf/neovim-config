@@ -5,6 +5,9 @@ return require('packer').startup(function(use)
   -- leap
   use 'ggandor/leap.nvim'
 
+  -- just
+  use 'NoahTheDuke/vim-just'
+
   -- todo-comments
   use 'folke/todo-comments.nvim'
 
