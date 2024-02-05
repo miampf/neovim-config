@@ -17,6 +17,7 @@ require "config.keymap"
 require("mason").setup() -- set up mason
 require("toggleterm").setup() -- set up toggleterm
 require("todo-comments").setup() -- set up todo-comments
+require('leap').create_default_mappings() -- set up leap keybindings
 require "plugins.coc" -- load the CoC config
 require "plugins.barbar"
 require "plugins.toggleterm"

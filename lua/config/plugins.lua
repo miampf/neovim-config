@@ -2,6 +2,9 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- leap
+  use 'ggandor/leap.nvim'
+
   -- todo-comments
   use 'folke/todo-comments.nvim'
 
