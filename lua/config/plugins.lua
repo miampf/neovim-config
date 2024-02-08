@@ -104,6 +104,9 @@ return require('packer').startup(function(use)
   -- vim-rustfmt
   use {"alx741/vim-rustfmt"}
 
+  -- zig
+  use 'ziglang/zig.vim'
+
   -- arshamiser
   use({
     "arsham/arshamiser.nvim",

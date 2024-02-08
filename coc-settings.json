@@ -2,6 +2,10 @@
   "rust-analyzer.check.command": "clippy",
   "coc.source.OmniSharp.enable" : true,
   "coc.source.OmniSharp.triggerCharacters": ".",
+  "zig.enabled": true,
+  "zig.startUpMessage": true,
+  "zig.path": "zls",
+  "zig.debugLog": false,
   "languageserver": {
     "ccls": {
       "command": "ccls",
