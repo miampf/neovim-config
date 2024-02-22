@@ -33,6 +33,16 @@
     "typst": {
       "command": "typst-lsp",
       "filetypes": ["typst"]
+    },
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": [
+        "terraform",
+        "tf"
+      ],
+      "initializationOptions": {},
+      "settings": {}
     }
   } 
 }

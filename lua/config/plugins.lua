@@ -104,6 +104,9 @@ return require('packer').startup(function(use)
   -- vim-rustfmt
   use {"alx741/vim-rustfmt"}
 
+  -- terraform, hcl, etc
+  use 'hashivim/vim-terraform'
+
   -- zig
   use 'ziglang/zig.vim'
 
